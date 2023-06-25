@@ -5,14 +5,16 @@ namespace ConsoleApp
     public class Program
     {
         private const int ElementsNumber = 10;
+        private const int Seed = 1;
 
         public static void Main()
         {
-            var arr = Utils.InitArray(ElementsNumber);
+            var arr = Utils.InitArray(ElementsNumber, Seed);
             PrintArray(arr);
 
-            arr.Sort();
+            arr.Sort<QuickSort>();
 
+            PrintArray(arr);
             Console.ReadLine();
         }
 

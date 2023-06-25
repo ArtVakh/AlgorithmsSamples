@@ -5,7 +5,7 @@ namespace SortingLibrary
 {
     public class SelectionSort : ISortingAlgorithm
     {
-        public IList<int> Sort(IList<int> nums)
+        public static IList<int> Sort(IList<int> nums)
         {
             for (var i = 0; i < nums.Count - 1; i++)
             {

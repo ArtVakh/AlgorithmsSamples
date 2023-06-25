@@ -5,7 +5,7 @@ namespace SortingLibrary
 {
     public class InsertionSort : ISortingAlgorithm
     {
-        public IList<int> Sort(IList<int> nums)
+        public static IList<int> Sort(IList<int> nums)
         {
             for (var i = nums.Count - 2; i >= 0; i--)
             {

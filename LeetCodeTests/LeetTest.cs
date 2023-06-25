@@ -13,7 +13,7 @@ namespace LeetCodeTests
             int[] nums2 = { 2,5,6 };
             var n = 3;
 
-            Class1.Merge(nums1, m, nums2, n);
+            Leet.Merge(nums1, m, nums2, n);
 
             int[] expected = { 1,2,2,3,5,6 };
             Assert.Equal(expected, nums1);
@@ -28,7 +28,7 @@ namespace LeetCodeTests
             int[] nums2 = { };
             var n = 0;
 
-            Class1.Merge(nums1, m, nums2, n);
+            Leet.Merge(nums1, m, nums2, n);
 
             int[] expected = { 1 };
             Assert.Equal(expected, nums1);
@@ -43,7 +43,7 @@ namespace LeetCodeTests
             int[] nums2 = { 1 };
             var n = 1;
 
-            Class1.Merge(nums1, m, nums2, n);
+            Leet.Merge(nums1, m, nums2, n);
 
             int[] expected = { 1 };
             Assert.Equal(expected, nums1);

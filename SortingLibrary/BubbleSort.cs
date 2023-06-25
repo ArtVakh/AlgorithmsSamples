@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace SortingLibrary
 {
-    public static class BubbleSort
+    public class BubbleSort : ISortingAlgorithm
     {
-        public static IList<int> Sort(this IList<int> nums)
+        public static IList<int> Sort(IList<int> nums)
         {
             while (true)
             {
