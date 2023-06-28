@@ -5,13 +5,11 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode", "LeetCode\LeetCode.csproj", "{DA6A12A7-168A-40EA-B54C-882EEAC59275}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCodeTests", "LeetCodeTests\LeetCodeTests.csproj", "{B83E28CB-F491-407C-9E40-86B1C2B1AD3B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{CC2EC29F-AFA0-417F-A1B0-749AFA0F334F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingLibrary", "SortingLibrary\SortingLibrary.csproj", "{9DA079CD-B6B6-4869-B258-45CA20CBC58E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingLibrary", "SortingLibrary\SortingLibrary.csproj", "{9DA079CD-B6B6-4869-B258-45CA20CBC58E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingTests", "SortingTests\SortingTests.csproj", "{3D61EFA5-85F9-4B01-A29F-119FD17A2AD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingTests", "SortingTests\SortingTests.csproj", "{3D61EFA5-85F9-4B01-A29F-119FD17A2AD5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{50F1BF59-30DF-4984-9FEA-990E9C9E433C}"
 EndProject
@@ -25,10 +23,6 @@ Global
 		{DA6A12A7-168A-40EA-B54C-882EEAC59275}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA6A12A7-168A-40EA-B54C-882EEAC59275}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA6A12A7-168A-40EA-B54C-882EEAC59275}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B83E28CB-F491-407C-9E40-86B1C2B1AD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B83E28CB-F491-407C-9E40-86B1C2B1AD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B83E28CB-F491-407C-9E40-86B1C2B1AD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B83E28CB-F491-407C-9E40-86B1C2B1AD3B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CC2EC29F-AFA0-417F-A1B0-749AFA0F334F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CC2EC29F-AFA0-417F-A1B0-749AFA0F334F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC2EC29F-AFA0-417F-A1B0-749AFA0F334F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -46,7 +40,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{B83E28CB-F491-407C-9E40-86B1C2B1AD3B} = {50F1BF59-30DF-4984-9FEA-990E9C9E433C}
 		{3D61EFA5-85F9-4B01-A29F-119FD17A2AD5} = {50F1BF59-30DF-4984-9FEA-990E9C9E433C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
